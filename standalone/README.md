@@ -103,3 +103,9 @@ spec:
 
 - Access Minio
 
+`kubectl get svc` 
+
+You can verify the service with NodePort is created and use one of the worker node IP to browse the URL e.g:
+http://70.0.74.81:30000/minio/
+
+
