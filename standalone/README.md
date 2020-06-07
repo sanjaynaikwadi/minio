@@ -17,28 +17,6 @@ parameters:
 
 `kubectl apply -f minio-sc.yaml`
 
-- Create Headless Service
-
-vi minio-headless-service.yaml
-
-```yaml
-apiVersion: v1
-kind: Service
-metadata:
-  name: minio
-  labels:
-    app: minio
-spec:
-  clusterIP: None
-  ports:
-    - port: 9000
-      name: minio
-  selector:
-    app: minio
-```
-
-`kubectl apply -f minio-headless-service.yaml`
-
 - Create the StatefulSet
 
 vi minio-sts.yaml

@@ -27,5 +27,6 @@ There are multiple ways of installing Minio
 More info can be found on : https://docs.min.io/docs/deploy-minio-on-kubernetes.html
 
 ## Two ways of install
-[Standalone]
-[Distributed]
+* [Standalone](https://github.com/sanjaynaikwadi/minio/tree/master/standalone)
+
+* [Distributed]
