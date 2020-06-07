@@ -30,3 +30,8 @@ More info can be found on : https://docs.min.io/docs/deploy-minio-on-kubernetes.
 * [Standalone](https://github.com/sanjaynaikwadi/minio/tree/master/standalone)
 
 * [Distributed]
+
+## Clien to manage the bucket
+https://docs.min.io/docs/minio-client-complete-guide.html
+
+Follow the doc to create a config file and now your ready to manage your objectstore via CLI or GUI.
